@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  margin: 20px;
+  background-image: url("Vector_2640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.box {
+  position: relative; }
+  .box .inside-box {
+    border-radius: 3px;
+    box-shadow: 3px 3px 20px #0741c2;
+    background-color: #dcdcdc;
+    height: 250px;
+    width: 550px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%); }
+    .box .inside-box .header-text {
+      display: flex; }
+      .box .inside-box .header-text h2 {
+        margin: auto;
+        padding-top: 10px;
+        font-size: 40px;
+        padding-bottom: 120px; }
+    .box .inside-box .button {
+      display: flex;
+      transition: all; }
+      .box .inside-box .button .btn {
+        transition: all;
+        background-color: #021c57;
+        border-radius: 20px;
+        margin: auto;
+        outline: none;
+        border: none;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 10px 25px; }
+      .box .inside-box .button .btn:hover {
+        transition: all .1s;
+        background-color: #127506; }
+
+.box-2 {
+  position: relative; }
+  .box-2 .outside-box {
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #1e1e1e;
+    height: 250px;
+    width: 550px; }
+    .box-2 .outside-box h2 {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, 10%);
+      color: white; }
+    .box-2 .outside-box .btn-close {
+      float: right;
+      padding: 10px;
+      color: black;
+      font-size: 20px;
+      font-weight: bolder;
+      border: none;
+      outline: none; }
+    .box-2 .outside-box .btn-close:hover {
+      transition: all .1s;
+      color: white;
+      background-color: #021d59; }

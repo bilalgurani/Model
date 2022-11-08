@@ -1,0 +1,26 @@
+{
+  "name": "model",
+  "version": "1.0.0",
+  "description": "Close model when close button is pressed",
+  "main": "script.js",
+  "dependencies": {
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0",
+    "node-sass": "^7.0.3"
+  },
+  "scripts": {
+    "compile:sass": "node-sass styleSCSS.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilalgurani/Model.git"
+  },
+  "author": "Bilal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilalgurani/Model/issues"
+  },
+  "homepage": "https://github.com/bilalgurani/Model#readme"
+}
